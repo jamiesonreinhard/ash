@@ -33,11 +33,6 @@ h1 {
 .dropdown-item {
   line-height: 1;
 }
-a.navbar-brand {
-  width: 106px;
-  height: 106px;
-  margin: 0 2rem 0 1rem;
-}
 /* button */
 
 .mybtn {
@@ -61,7 +56,6 @@ a.navbar-brand {
 .card-box {
   text-align: center;
   width: 50%;
-  margin: 0 auto;
 }
 .card {
   border-width: 0;
