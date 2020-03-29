@@ -29,6 +29,10 @@ h1 {
 .icon {
   color: #404040;
 }
+
+.dropdown-item {
+  line-height: 1;
+}
 /* button */
 
 .mybtn {
