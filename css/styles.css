@@ -1,0 +1,84 @@
+/* jumbotron */
+.jumbotron {
+  text-align: center;
+  background-color: #ddd9d8;
+}
+
+
+
+
+/* html tags */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #404040;
+}
+h1 {
+  color: #404040;
+  font-family: 'Sofia', cursive;
+}
+/* Navigation Bar */
+
+.dropdown-menu {
+  background-color: transparent;
+  border: 0.5px;
+  border-radius: 40%;
+}
+.dropdown-menu:hover {
+  background-color: transparent;
+}
+.icon {
+  color: #404040;
+}
+/* button */
+
+.mybtn {
+  border-color: black;
+  border-width: 1px;
+  margin-top: 1rem;
+  background-color: #404040;
+  color: white;
+}
+
+.mybtn:hover {
+  background-color: #ddd9d8;
+  border-color: black;
+}
+
+/* cards */
+.cards {
+  margin: 3rem 0;
+  align-items: center;
+}
+.card-box {
+  text-align: center;
+  width: 50%;
+}
+.card {
+  border-width: 0;
+  margin: 0 auto;
+}
+
+/* heading */
+.heading {
+  padding-top: 1rem;
+}
+/* selectors */
+.so-shit {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.logo {
+  height: 5px;
+  weight: 5px;
+  color: black;
+}
+.icon-two {
+  padding-bottom: 1rem;
+  color: #404040;
+}
+
+/* <!-- Footer --> */
+
+#footer {
+  text-align: center;
+}
