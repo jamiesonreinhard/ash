@@ -1,31 +1,32 @@
-/* jumbotron */
+/* /////////////////////////////////* jumbotron */
 .jumbotron {
   text-align: center;
   background-color: #ddd9d8;
+  margin: 0;
 }
 
-
-
-
-/* html tags */
+/* /////////////////////////////////*html tags*/
 body {
   font-family: 'Montserrat', sans-serif;
   color: #404040;
 }
+
 h1 {
   color: #404040;
   font-family: 'Almonds';
 }
-/* Navigation Bar */
 
+/* Navigation Bar */
 .dropdown-menu {
   background-color: transparent;
   border: 0.5px;
   border-radius: 40%;
 }
+
 .dropdown-menu:hover {
   background-color: transparent;
 }
+
 .icon {
   color: #404040;
 }
@@ -33,13 +34,14 @@ h1 {
 .dropdown-item {
   line-height: 1;
 }
+
 a.navbar-brand {
   width: 106px;
   height: 106px;
   margin: 0 2rem 0 1rem;
 }
-/* button */
 
+/* /////////////////////////////////* button */
 .mybtn {
   border-color: black;
   border-width: 1px;
@@ -55,14 +57,16 @@ a.navbar-brand {
 
 /* cards */
 .cards {
-  margin: 3rem 0;
+  margin: 0 0 3rem 0;
   align-items: center;
 }
+
 .card-box {
   text-align: center;
   width: 50%;
   margin: 0 auto;
 }
+
 .card {
   border-width: 0;
   margin: 0 auto;
@@ -72,60 +76,136 @@ a.navbar-brand {
 .heading {
   padding-top: 1rem;
 }
+
 /* selectors */
 .so-shit {
   font-weight: bold;
   text-decoration: underline;
 }
+
 .logo {
   height: 5px;
   weight: 5px;
   color: black;
 }
+
 .icon-two {
   padding-bottom: 1rem;
   color: #404040;
 }
 
-
-
-/* Carousel */
-.first-slide-text h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  color: #252525;
+/* /////////////////////////////////* carousel */
+.first-slide-block {
+  width: 1280px;
+  height: 600px;
 }
 
-.inspiration p {
+.first-slide-header {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
+  font-weight: 800;
+  font-size: 2rem;
   color: #252525;
+  position: absolute;
+  left: 498px;
+  top: 120px;
+  width: 20%;
+}
+
+.first-slide-body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #252525;
+  position: absolute;
+  left: 500px;
+  top: 215px;
+  width: 20%;
+}
+
+.first-slide-body2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #252525;
+  position: absolute;
+  left: 800px;
+  top: 120px;
+  width: 20%;
 }
 
 .first-slide-square {
-  width: 800px;
-  height: 439px;
+  width: 150px;
+  height: 440px;
   background-color: #cfa769;
-  position: relative;
-  bottom: 259px;
-  left: 1100px;
+  position: absolute;
+  top: 80px;
+  right: 0px;
 }
 
 .first-slide-img {
-  position: relative;
-  top: 180px;
+  position: absolute;
+  top: 80px;
+  left: -120px;
 }
 
-.first-slide-text {
-  position: relative;
+.second-slide-square {
+  width: 600px;
+  height: 440px;
+  background-color: #cfa769;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+}
+
+.second-slide-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  left: 200px;
+  top: 120px;
+  width: 30%;
+}
+
+.second-slide-body p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: #fff;
+  position: absolute;
+  left: 200px;
+  top: 220px;
+  width: 20%;
+}
+
+.second-slide-block {
+  width: 1280px;
+  height: 600px;
+}
+
+.second-slide-img {
+  position: absolute;
+  left: 500px;
+  top: 20px;
+  z-index: -1;
 }
 
 
+.second-slide-img2 {
+  position: absolute;
+  top: 80px;
+  right: -420px;
+}
 
-/* <!-- Footer --> */
 
+/* /////////////////////////////////* footer */
 #footer {
   text-align: center;
 }
