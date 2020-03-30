@@ -87,7 +87,42 @@ a.navbar-brand {
   color: #404040;
 }
 
+
+
+/* Carousel */
+.first-slide-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  color: #252525;
 }
+
+.inspiration p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #252525;
+}
+
+.first-slide-square {
+  width: 800px;
+  height: 439px;
+  background-color: #cfa769;
+  position: relative;
+  bottom: 259px;
+  left: 1100px;
+}
+
+.first-slide-img {
+  position: relative;
+  top: 180px;
+}
+
+.first-slide-text {
+  position: relative;
+}
+
+
 
 /* <!-- Footer --> */
 
