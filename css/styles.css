@@ -56,20 +56,11 @@ a.navbar-brand {
 }
 
 /* cards */
-.cards {
-  margin: 0 0 3rem 0;
-  align-items: center;
-}
 
-.card-box {
+.container-fluid {
+  background-color: #ddd9d8;
+  padding: 7% 15%;
   text-align: center;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.card {
-  border-width: 0;
-  margin: 0 auto;
 }
 
 /* heading */
@@ -208,4 +199,8 @@ a.navbar-brand {
 /* /////////////////////////////////* footer */
 #footer {
   text-align: center;
+}
+#footer.container-fluid {
+  background-color: #fff;
+  padding: 3% 15%;
 }
