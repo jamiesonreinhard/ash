@@ -33,6 +33,7 @@ h1 {
 
 .dropdown-item {
   line-height: 1;
+  color: #404040;
 }
 
 a.navbar-brand {
@@ -67,7 +68,9 @@ a.navbar-brand {
 .heading {
   padding-top: 1rem;
 }
-
+.heading-videopage {
+  padding: 3% auto;
+}
 /* selectors */
 .so-shit {
   font-weight: bold;
