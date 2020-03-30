@@ -14,7 +14,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/videostyles.css">
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -25,50 +25,122 @@
 </head>
 
 <body>
-  <section id="title">
-    <div class="jumbotron">
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/circle-cropped.png" alt="avatar-img" style="width: 106px; height: 106px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Menu
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">Home</a>
-                  <a class="dropdown-item" href="about.html">About Ashley</a>
-                <a class="dropdown-item" href="video.html">Video</a>
-                <a class="dropdown-item" href="resources.html">Resources</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
+  <!-- navbar -->
 
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- title -->
-      <div class="heading">
-        <h1 class="display-4">Hi, I'm Ashley</h1>
-        <p class="lead">I help sad people stop being sad.</p>
-        <hr class="my-4">
-        <p>If you're feeling depressed, you can come to my site for videos and other resources to help you stop feeling <span class="so-shit">so shit</span>.</p>
-        <a class="btn btn-light btn-lg mybtn" href="contact.html" role="button">Get in touch</a>
+  <section id="navigate">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/circle-cropped.png" alt="avatar-img" style="width: 106px; height: 106px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="video.html">Contact</a>
+          </li>
+        </ul>
       </div>
-
+    </nav>
   </section>
+
+  </div>
+
+
+  <!-- video section -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ">
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/SC1XE85BC9o" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div><!-- card image -->
+
+          <div class="card-content">
+            <span class="card-title">Will my credits transfer?</span>
+
+          </div><!-- card content -->
+
+
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/VNYwx5KBoYY" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div><!-- card image -->
+          <div class="card-content">
+            <span class="card-title">Do I have to live on campus?</span>
+          </div><!-- card content -->
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 ">
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/23mXDU5bBhw" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div><!-- card image -->
+
+          <div class="card-content">
+            <span class="card-title">How can I pay for college?</span>
+          </div><!-- card content -->
+
+        </div>
+      </div>
+      <div class="col-md-6 ">
+        <div class="card">
+          <div class="card-image">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/oJhPYmw21fw" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+          </div><!-- card image -->
+
+          <div class="card-content">
+            <span class="card-title">Will I fit in?</span>
+          </div><!-- card content -->
+
+        </div>
+      </div>
+    </div>
 
 
     <!-- Footer -->
 
-    <footer id="footer" style="text-align: center;">
+    <footer id="footer" class="container-fluid">
+
+      <div>
+        <i class="social-icons fab fa-twitter"></i>
+        <i class="social-icons fab fa-facebook-f"></i>
+        <i class="social-icons fab fa-instagram"></i>
+        <i class="social-icons fas fa-envelope"></i>
+      </div>
 
       <p>© Copyright 2020 Ashley Sabido</p>
 
