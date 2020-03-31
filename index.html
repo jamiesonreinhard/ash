@@ -26,54 +26,53 @@
 
 <body>
   <section id="title">
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top colored-section">
+      <a class="navbar-brand" href="index.html">
+        <img class="avatar-img" src="images/circle-cropped.png" alt="avatar-img" style="width: 70px; height: 70px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#title">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Featured</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- title -->
     <div class="jumbotron">
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="images/circle-cropped.png" alt="avatar-img" style="width: 106px; height: 106px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Menu
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">Home</a>
-                <a class="dropdown-item" href="about.html">About</a>
-                <a class="dropdown-item" href="video.html">Video</a>
-                <a class="dropdown-item" href="resources.html">Resources</a>
-                <a class="dropdown-item" href="contact.html">Contact</a>
-
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- title -->
       <div class="heading">
-        <h1 class="display-4">Hi, I'm Ashley</h1>
-        <p class="lead">I help sad people stop being sad.</p>
+        <h1 class="display-4">A Mind Unravelled</h1>
+        <p class="lead">a safe space to have conversations about mental health</p>
         <hr class="my-4">
-        <p>If you're feeling depressed, you can come to my site for videos and other resources to help you stop feeling <span class="so-shit">so shit</span>.</p>
+
         <a class="btn btn-light btn-lg mybtn" href="contact.html" role="button">Get in touch</a>
       </div>
-
     </div>
 
 
     <!-- Inspiration Carousel -->
-    <section id="inspiration">
+    <section id="about">
       <div id="inspiration-carousel" class="carousel slide" data-ride="carousel" data-ride="false">
         <div class="carousel-inner">
 
           <!-- First Slide -->
-          <div class="carousel-item active inspiration">
-            <h2 class="first-slide-header">Breathe Easier For Reals.</h2>
+          <div class="carousel-item inspiration">
+            <h2 class="first-slide-header">What is "A Mind Unravelled?"</h2>
             <p class="first-slide-body">Nature is good because it has electrolytes. And electrolytes is what the body craves. Not water from the toilet. That's gross. We need to start watering nature with brawndo to maximize the benfits of the
               electrolytes. Otherwise, President Kumacho will send us to the rehabilitation. Or we could go to the time machine and see the Nazi Dinosaurs who once roamed.</p>
             <p class="first-slide-body2"> Lorem ipsum that's the shizzle bling bling amet, consectetuer adipiscing elit. Nullizzle ghetto boom shackalack, fizzle volutpizzle, suscipizzle fizzle, cool tellivizzle, arcu. Pellentesque eget daahng
@@ -87,19 +86,21 @@
           </div>
 
           <!-- Second Slide -->
-          <div class="carousel-item inspiration">
+          <div class="carousel-item active inspiration">
             <div class="second-slide-text">
               <div class="second-slide-square">
               </div>
               <div class="second-slide-header">
-                <h2>If you aint first, you're last.</h2>
+                <h2>Hi! I'm Ashley Sabido</h2>
               </div>
               <div class="second-slide-body">
-                <p>Let's take a moment and pray to new born baby Jesus. Thank you for this bountiful harvest of Dominoes, KFC, and the always delicious Taco Bell. Thank you sweet 8lb 6oz baby Jesus.</p>
+                <p>
+                  Let's take a moment and pray to new born baby Jesus. Thank you for this bountiful harvest of Dominoes, KFC, and the always delicious Taco Bell. Thank you sweet 8lb 6oz baby Jesus.
+                </p>
               </div>
               <div class="second-slide-block">
               </div>
-              <img class="second-slide-img" src="images/leaves.png" alt="Photo of Leaves">
+              <img class="second-slide-img" src="images/baguette-lady.png" alt="Photo of Leaves">
               <img class="second-slide-img2" src="images/chair.png" alt="Photo of a Chair">
             </div>
           </div>
@@ -118,10 +119,85 @@
       </div>
     </section>
 
+    <!-- featured videos and content -->
+
+    <section id="featured" class="colored-section">
+      <div class="container-fluid">
+        <h1 class="featured-title">Featured Content</h1>
+
+        <div class="row">
+          <div class="col-lg-6 my-auto">
+
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card" style="width: 397.75px; height: 223.73px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+        </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="card" style="width: 397.75px; height: 223.73px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="embed-responsive embed-responsive-16by9 my-auto">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            </div>
+
+          </div>
+          <div class="col-lg-6">
+            <div class="card" style="width: 397.75px; height: 223.73px;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
     <!-- Mental Health Resources -->
     </div>
   </section>
-  <section id="services" class="container-fluid">
+  <section id="services" class="container-fluid white-section">
     <div class="row">
       <div class="card-box col-lg-6 col-md-12 col-sm-12">
         <i class="fas fa-phone fa-3x icon-two"></i>
@@ -129,12 +205,12 @@
         <p class="card-text">I will solve every one of your problems in just 5 minutes on the phone.</p>
         <a href="#" class="btn btn-light btn-lg mybtn">Pay me $1 Million</a>
       </div>
-    <div class="card-box col-lg-6 col-md-12 col-sm-12">
-      <i class="fas fa-video fa-3x icon-two"></i>
-      <h5 class="card-title">Mental Health Videos</h5>
-      <p class="card-text">They're better than Netflix, and even Disney Plus.</p>
-      <a href="#" class="btn btn-light btn-lg mybtn">Watch me shine.</a>
-    </div>
+      <div class="card-box col-lg-6 col-md-12 col-sm-12">
+        <i class="fas fa-video fa-3x icon-two"></i>
+        <h5 class="card-title">Mental Health Videos</h5>
+        <p class="card-text">They're better than Netflix, and even Disney Plus.</p>
+        <a href="#" class="btn btn-light btn-lg mybtn">Watch me shine.</a>
+      </div>
     </div>
 
   </section>
