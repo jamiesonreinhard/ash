@@ -1,4 +1,8 @@
-
+/* /////////////////////////////////*Font Familes*/
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
 /* /////////////////////////////////*html tags*/
 body {
   font-family: 'Montserrat', sans-serif;
@@ -13,11 +17,12 @@ h1 {
 .white-section {
   background-color: #fff;
 }
+
 .colored-section {
   background-color: #ddd9d8;
 }
-/* Navigation Bar */
 
+/* Navigation Bar */
 .navbar {
   padding: 0 16px;
   height: 90px;
@@ -47,23 +52,19 @@ a.navbar-brand {
 }
 
 .display-4 {
-padding: 6rem 0 0 0;
-font-size: 5rem;;
-
+  padding: 6rem 0 0 0;
+  font-size: 5rem;
+  ;
 }
 
 .lead {
   padding: 10px 0 0;
 }
 
-
-
 /* selectors */
-
 .insta-link {
   text-decoration: none;
 }
-
 
 /* /////////////////////////////////* button */
 .mybtn {
@@ -80,7 +81,6 @@ font-size: 5rem;;
 }
 
 /* cards */
-
 .container-fluid {
   padding: 7% 15%;
   text-align: center;
@@ -90,9 +90,11 @@ font-size: 5rem;;
 .heading {
   padding-top: 1rem;
 }
+
 .heading-videopage {
   padding: 3% auto;
 }
+
 /* selectors */
 .so-shit {
   font-weight: bold;
@@ -110,136 +112,257 @@ font-size: 5rem;;
   color: #404040;
 }
 
-/* /////////////////////////////////* carousel */
-.first-slide-block {
-  width: 1280px;
-  height: 600px;
+/* /////////////////////////////////* About Sections */
+/* /////////////////////////////////* About Ashley Section */
+.ashley-parent {
+  height: 0;
+  padding-bottom: 80%;
+  postion: relative;
+  background-color: #E3E0CF;
 }
 
-.first-slide-header {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
-  color: #252525;
-  position: absolute;
-  left: 498px;
-  top: 120px;
-  width: 20%;
+.ashley-title-shape {
+  background-color: #C5D5CB;
+  width: 700px;
+  height: 120px;
+  min-width: 440px;
 }
 
-.first-slide-body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: justify;
-  color: #252525;
-  position: absolute;
-  left: 500px;
-  top: 215px;
-  width: 20%;
+/* /////////////////////////////////* About Mind Unraveled Section */
+.mind-parent {
+  height: 0;
+  padding-bottom: 80%;
+  postion: relative;
+  background-color: #C5D5CB;
 }
 
-.first-slide-body2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: justify;
-  color: #252525;
-  position: absolute;
-  left: 800px;
-  top: 120px;
-  width: 20%;
+.mind-title-shape {
+  background-color: #9FA8A3;
+  width: 900px;
+  height: 120px;
+  min-width: 440px;
 }
 
-.first-slide-square {
-  width: 150px;
-  height: 440px;
-  background-color: #cfa769;
-  position: absolute;
+/* /////////////////////////////////* Style that applies to both ABOUT ASHLEY and MIND UNRAVELED Sections */
+
+.title-container {
+  position: relative;
   top: 80px;
-  right: 0px;
 }
 
-.first-slide-img {
-  position: absolute;
-  top: 80px;
-  left: -120px;
-}
-
-.second-slide-square {
-  width: 600px;
-  height: 440px;
-  background-color: #cfa769;
-  position: absolute;
-  top: 80px;
-  left: 0px;
-}
-
-.second-slide-header h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
+.title {
   color: #fff;
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
   position: absolute;
-  left: 200px;
-  top: 120px;
-  width: 30%;
+  top: 8px;
+  left: 80px;
 }
 
-.second-slide-body p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
+.paragraph {
+  color: #363636;
+  font-size: 1.2rem;
   line-height: 1.5;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  padding: 160px 30px 0 80px;
   text-align: justify;
-  color: #fff;
-  position: absolute;
-  left: 200px;
-  top: 220px;
-  width: 20%;
 }
 
-.second-slide-body .social-icons {
-
-}
-.second-slide-block {
-  width: 1280px;
-  height: 600px;
+.tab {
+  display: inline-block;
+  margin-left: 40px;
 }
 
-.second-slide-img {
-  position: absolute;
-  left: 500px;
-  top: 20px;
-  z-index: -1;
+.text-and-image-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
-
-.second-slide-img2 {
-  position: absolute;
-  top: 80px;
-  right: -420px;
+.text-box {
+  width: 800px;
+  float: left;
 }
 
-/* featured section */
-
-#featured {
-  text-align: center;
-}
-h1.featured-title {
-  margin: 0 0 40px 0;
-}
-col-lg-6 {
-  margin: 2rem;
+.image-box {
+  width: 300px;
+  margin-left: 86px;
+  float: right;
+  flex-wrap: nowrap;
 }
 
-/* /////////////////////////////////* footer */
-#footer {
-  text-align: center;
+.image {
+  padding: 175px 80px 0 0px;
 }
-#footer.container-fluid {
-  background-color: #fff;
-  padding: 4% 15%;
+
+/* /////////////////////////////////* Media Queries for ABOUT SECTIONS */
+
+@media (max-width: 1201px) {
+  .image {
+    display: none;
+  }
 }
+
+@media (max-width: 1000px) {
+  .ashley-parent {
+    height: 0;
+    padding-bottom: 100%;
+    postion: relative;
+    background-color: #E3E0CF;
+  }
+
+  .mind-parent {
+    height: 0;
+    padding-bottom: 100%;
+    postion: relative;
+    background-color: #C5D5CB;
+  }
+
+  .title {
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    position: absolute;
+    top: 8px;
+    left: 80px;
+  }
+
+  .paragraph {
+    color: #363636;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    padding: 160px 80px 0 80px;
+    text-align: justify;
+  }
+
+  .ashley-title-shape {
+    background-color: #C5D5CB;
+    width: 580px;
+    height: 100px;
+    min-width: 440px;
+  }
+
+  .mind-title-shape {
+  background-color: #9FA8A3;
+  width: 720px;
+  height: 100px;
+  min-width: 440px;
+  }
+}
+
+  @media (max-width: 760px) {
+    .ashley-parent {
+      height: 0;
+      padding-bottom: 140%;
+      postion: relative;
+      background-color: #E3E0CF;
+    }
+
+    .mind-parent {
+      height: 0;
+      padding-bottom: 140%;
+      postion: relative;
+      background-color: #C5D5CB;
+    }
+
+    .title {
+      color: #fff;
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      position: absolute;
+      top: 8px;
+      left: 60px;
+    }
+
+    .paragraph {
+      color: #363636;
+      font-size: 1rem;
+      line-height: 1.5;
+      font-family: 'Nunito', sans-serif;
+      font-weight: 200;
+      padding: 120px 60px 0 60px;
+      text-align: justify;
+    }
+
+    .ashley-title-shape {
+      background-color: #C5D5CB;
+      width: 580px;
+      height: 80px;
+      min-width: 440px;
+    }
+
+    .mind-title-shape {
+    background-color: #9FA8A3;
+    width: 720px;
+    height: 80px;
+    min-width: 440px;
+    }
+  }
+
+    @media (max-width: 566px) {
+      .ashley-parent {
+        height: 0;
+        padding-bottom: 180%;
+        postion: relative;
+        background-color: #E3E0CF;
+      }
+
+      .mind-parent {
+        height: 0;
+        padding-bottom: 180%;
+        postion: relative;
+        background-color: #C5D5CB;
+      }
+
+      .title {
+        color: #fff;
+        font-size: 2.5rem;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        position: absolute;
+        top: 8px;
+        left: 40px;
+      }
+
+      .paragraph {
+        color: #363636;
+        font-size: .9rem;
+        line-height: 1.5;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+        padding: 120px 40px 0 40px;
+        text-align: justify;
+      }
+
+      .ashley-title-shape {
+        background-color: #C5D5CB;
+        width: 580px;
+        height: 70px;
+        min-width: 440px;
+      }
+
+      .mind-title-shape {
+      background-color: #9FA8A3;
+      width: 720px;
+      height: 70px;
+      min-width: 440px;
+      }
+    }
+
+    /* /////////////////////////////////* footer */
+    
+    #footer {
+      text-align: center;
+    }
+
+    #footer.container-fluid {
+      background-color: #fff;
+      padding: 4% 15%;
+    }
