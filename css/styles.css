@@ -144,7 +144,6 @@ a.navbar-brand {
 }
 
 /* /////////////////////////////////* Style that applies to both ABOUT ASHLEY and MIND UNRAVELED Sections */
-
 .title-container {
   position: relative;
   top: 80px;
@@ -179,7 +178,6 @@ a.navbar-brand {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .text-box {
@@ -191,7 +189,6 @@ a.navbar-brand {
   width: 300px;
   margin-left: 86px;
   float: right;
-  flex-wrap: nowrap;
 }
 
 .image {
@@ -199,7 +196,6 @@ a.navbar-brand {
 }
 
 /* /////////////////////////////////* Media Queries for ABOUT SECTIONS */
-
 @media (max-width: 1201px) {
   .image {
     display: none;
@@ -249,120 +245,252 @@ a.navbar-brand {
   }
 
   .mind-title-shape {
-  background-color: #9FA8A3;
-  width: 720px;
-  height: 100px;
-  min-width: 440px;
+    background-color: #9FA8A3;
+    width: 720px;
+    height: 100px;
+    min-width: 440px;
   }
 }
 
-  @media (max-width: 760px) {
-    .ashley-parent {
-      height: 0;
-      padding-bottom: 140%;
-      postion: relative;
-      background-color: #E3E0CF;
-    }
+@media (max-width: 760px) {
+  .ashley-parent {
+    height: 0;
+    padding-bottom: 140%;
+    postion: relative;
+    background-color: #E3E0CF;
+  }
 
-    .mind-parent {
-      height: 0;
-      padding-bottom: 140%;
-      postion: relative;
-      background-color: #C5D5CB;
-    }
+  .mind-parent {
+    height: 0;
+    padding-bottom: 140%;
+    postion: relative;
+    background-color: #C5D5CB;
+  }
 
-    .title {
-      color: #fff;
-      font-size: 3rem;
-      font-family: 'Playfair Display', serif;
-      font-weight: 700;
-      position: absolute;
-      top: 8px;
-      left: 60px;
-    }
+  .title {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    position: absolute;
+    top: 8px;
+    left: 60px;
+  }
 
-    .paragraph {
-      color: #363636;
-      font-size: 1rem;
-      line-height: 1.5;
-      font-family: 'Nunito', sans-serif;
-      font-weight: 200;
-      padding: 120px 60px 0 60px;
-      text-align: justify;
-    }
+  .paragraph {
+    color: #363636;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    padding: 120px 60px 0 60px;
+    text-align: justify;
+  }
 
-    .ashley-title-shape {
-      background-color: #C5D5CB;
-      width: 580px;
-      height: 80px;
-      min-width: 440px;
-    }
+  .ashley-title-shape {
+    background-color: #C5D5CB;
+    width: 580px;
+    height: 80px;
+    min-width: 440px;
+  }
 
-    .mind-title-shape {
+  .mind-title-shape {
     background-color: #9FA8A3;
     width: 720px;
     height: 80px;
     min-width: 440px;
-    }
+  }
+}
+
+@media (max-width: 566px) {
+  .ashley-parent {
+    height: 0;
+    padding-bottom: 180%;
+    postion: relative;
+    background-color: #E3E0CF;
   }
 
-    @media (max-width: 566px) {
-      .ashley-parent {
-        height: 0;
-        padding-bottom: 180%;
-        postion: relative;
-        background-color: #E3E0CF;
-      }
+  .mind-parent {
+    height: 0;
+    padding-bottom: 180%;
+    postion: relative;
+    background-color: #C5D5CB;
+  }
 
-      .mind-parent {
-        height: 0;
-        padding-bottom: 180%;
-        postion: relative;
-        background-color: #C5D5CB;
-      }
+  .title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+  }
 
-      .title {
-        color: #fff;
-        font-size: 2.5rem;
-        font-family: 'Playfair Display', serif;
-        font-weight: 700;
-        position: absolute;
-        top: 8px;
-        left: 40px;
-      }
+  .paragraph {
+    color: #363636;
+    font-size: .9rem;
+    line-height: 1.5;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    padding: 120px 40px 0 40px;
+    text-align: justify;
+  }
 
-      .paragraph {
-        color: #363636;
-        font-size: .9rem;
-        line-height: 1.5;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 200;
-        padding: 120px 40px 0 40px;
-        text-align: justify;
-      }
+  .ashley-title-shape {
+    background-color: #C5D5CB;
+    width: 580px;
+    height: 70px;
+    min-width: 440px;
+  }
 
-      .ashley-title-shape {
-        background-color: #C5D5CB;
-        width: 580px;
-        height: 70px;
-        min-width: 440px;
-      }
+  .mind-title-shape {
+    background-color: #9FA8A3;
+    width: 720px;
+    height: 70px;
+    min-width: 440px;
+  }
+}
 
-      .mind-title-shape {
-      background-color: #9FA8A3;
-      width: 720px;
-      height: 70px;
-      min-width: 440px;
-      }
-    }
+/* /////////////////////////////////* featured section */
+#featured {
+  background-color: #9FA8A3;
+  padding-bottom: 10%
+}
 
-    /* /////////////////////////////////* footer */
-    
-    #footer {
-      text-align: center;
-    }
+.featured-title-container {
+  position: relative;
+  top: 80px;
+  padding-bottom: 120px;
+}
 
-    #footer.container-fluid {
-      background-color: #fff;
-      padding: 4% 15%;
-    }
+.featured-title {
+  font-size: 5rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 0;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 110px;
+  left: 80px;
+}
+
+.featured-title-shape {
+  background-color: #E3E0CF;
+  width: 840px;
+  height: 120px;
+  min-width: 440px;
+}
+
+.card {
+  width: 397.75px;
+  height: 223.73px
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.video-box {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.videowrapper {
+  position: relative;
+  margin: 0;
+  height: 0px;
+  bottom: 110px;
+  left: 0;
+  padding-top: 40px;
+  padding-right: 20px;
+  display: flex;
+  flex-flow: row;
+}
+
+.videowrapper iframe {
+  height: 224px;
+  width: 398px;
+}
+
+.video-cards {
+  display: flex;
+  flex-flow: row;
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+/* /////////////////////////////////* Media Queries for Featured Section */
+@media (max-width: 1000px) {
+  .featured-title {
+    font-size: 4rem;
+    bottom: 110px;
+  }
+
+  .featured-title-shape {
+    width: 700px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 850px) {
+  .videowrapper {
+    padding-right: 0;
+  }
+
+  .video-cards {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .videowrapper {
+    padding-top: 140px;
+  }
+
+  .video-cards {
+    padding-top: 140px;
+  }
+}
+
+@media (max-width: 760px) {
+  .featured-title {
+    font-size: 3rem;
+    bottom: 105px;
+    left: 60px;
+  }
+
+  .featured-title-shape {
+    width: 550px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 566px) {
+  .featured-title {
+    font-size: 2.5rem;
+    bottom: 105px;
+    left: 40px;
+  }
+
+  .featured-title-shape {
+    width: 550px;
+    height: 70px;
+  }
+}
+
+/* /////////////////////////////////* footer */
+#footer {
+  text-align: center;
+}
+
+#footer.container-fluid {
+  background-color: #fff;
+  padding: 4% 15%;
+}
